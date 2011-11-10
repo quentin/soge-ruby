@@ -24,6 +24,7 @@ Dependances
     - libxslt
     - libxslt-dev
   * [Hpricot](http://hpricot.com)
+  * Les outils en ligne de commande `convert` et `compare` de [ImageMagick](http://www.imagemagick.org/script/command-line-tools.php)
 
 Installation
 ------------
