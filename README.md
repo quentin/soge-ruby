@@ -30,7 +30,7 @@ Installation
   
   1. Clonez-moi!
 
-        git clone soge-ruby
+        git clone git://github.com/quentin/soge-ruby.git
 
   2. Installez les dépendances pour Nokogiri (a adapter selon votre OS)
 
@@ -49,5 +49,5 @@ Usage
 
   * lancez le programme
 
-    ruby soge.rb
+        ruby soge.rb
 
