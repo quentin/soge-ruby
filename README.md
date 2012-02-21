@@ -11,7 +11,10 @@ Ce programme est a un stage très précoce de développement.
 Fonctionnalités
 ---------------
 
-Pour l'instant le programme affiche simplement une suite de couples (numero de compte, solde).
+L'API permet de lister les comptes et acceder aux operations.
+
+Pour l'instant le programme test.rb affiche simplement la liste des comptes ainsi que leur solde et 
+leurs balance quotidienne respectifs.
 
 Dependances
 -----------
@@ -25,6 +28,7 @@ Dependances
     - libxslt-dev
   * [Hpricot](http://hpricot.com)
   * Les outils en ligne de commande `convert` et `compare` de [ImageMagick](http://www.imagemagick.org/script/command-line-tools.php)
+  * [yaml], [iconv], [csv], [digest] de la librairie standard de ruby.
 
 Installation
 ------------
@@ -44,11 +48,11 @@ Installation
 Usage
 -----
 
-  * Editez `soge.rb` et modifiez la valeur des constantes `CODECLI` et `PASS` pour refléter
+  * Editez `.sogeconf` et modifiez la valeur des constantes `CODECLI` et `PASS` pour refléter
     les valeurs que vous entrez habituellement pour accéder a vos comptes (code client et 
     mot de passe composé sur le clavier visuel du site).
 
   * lancez le programme
 
-        ruby soge.rb
+        ruby test.rb
 
